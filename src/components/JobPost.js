@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { db, auth } from "../firebaseConfig";
 import { collection, addDoc } from "firebase/firestore";
 import { useNavigate } from "react-router-dom";
+
 import styled from "styled-components";
 
 const JobPost = () => {

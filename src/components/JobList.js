@@ -3,6 +3,7 @@ import { db, auth } from "../firebaseConfig";
 import { collection, getDocs, deleteDoc, doc, updateDoc } from "firebase/firestore";
 import styled from "styled-components";
 
+
 const JobList = () => {
   const [jobs, setJobs] = useState([]);
   const [editingJob, setEditingJob] = useState(null);
