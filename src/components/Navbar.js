@@ -26,7 +26,7 @@ const Navbar = ({ user }) => {
           {menuOpen ? "✖" : "☰"}
         </MenuIcon>
         <LogoContainer onClick={() => navigate("/jobs")}>
-          <Logo className="logo">Berozgaar</Logo>
+          <Logo className="logo">Smart Job Portal</Logo>
           <GunImage className="gun-image" src={M416Image} alt="M416 Glacier Skin" />
         </LogoContainer>
       </LeftSection>
